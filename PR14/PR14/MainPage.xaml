@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PR14.MainPage">
+    <StackLayout x:Name="stackLayout" Spacing="8">
+        <Label Text="Творогов Даниил" TextColor="Red"  />
+        <Label Text="ПКС-31" TextColor="Blue" />
+        <Image Source="https://on-desktop.com/wps/World___Norway_Boat_at_the_pier_of_a_mountain_lake_in_Norway_107911_.jpg"/>
+        <Label Text="Увлекаюсь прочтением фантастики" TextColor="Purple" />
+        <Button Text="Вертикальная версия" Clicked="OnButtonClicked" />
+    </StackLayout>
+</ContentPage>
